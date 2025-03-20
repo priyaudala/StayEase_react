@@ -1,6 +1,8 @@
 import React from 'react'
+import Login from './Components/login/login'
+import Registration from './Components/Registration/Registration'
 
-// import Login from './components/login/login/Login'
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
   return (
    <>
    <Login/>
+   <Registration/>
    </>
   )
 }
